@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "_id": 2,
+      "name": "Call family",
+      "description": "Ask about brother",
+      "checked": false
+    },
+    {
+      "_id": 3,
+      "name": "Study chess",
+      "description": "Focus on Karo-Kann defence",
+      "checked": false
+    },
+    {
+      "_id": 9675389477,
+      "name": "Finish this app",
+      "description": "Deploy it in Heroku",
+      "checked": false
+    }
+  ]
+}

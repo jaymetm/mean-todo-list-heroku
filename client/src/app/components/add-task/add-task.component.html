@@ -1,0 +1,23 @@
+<div class="todo-list__add">
+  <form action="post" (submit)="onSubmit()">
+    <div class="input-group">
+      <label for="taskTitle" class="form-label">Your new task:</label>
+      <input
+        [(ngModel)]="taskName"
+        type="text"
+        name="task-name"
+        id="taskTitle"
+        class="form-control"
+      />
+      <label for="taskDescription" class="form-label">Task description:</label>
+      <input
+        [(ngModel)]="taskDescription"
+        type="text"
+        name="task-description"
+        id="taskDescription"
+        class="form-control"
+      />
+    </div>
+    <button type="submit" class="btn btn--violet">Add new task</button>
+  </form>
+</div>
